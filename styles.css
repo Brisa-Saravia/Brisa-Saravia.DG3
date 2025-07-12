@@ -74,6 +74,43 @@ p {
 
 
 
+
+
+/* Fondo de Hero */
+
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/hero-02.jpg'); /* Tu ruta local, ¡perfecto! */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+/* Estas reglas ya las tenías y son importantes */
+.section-spacing {
+    position: relative; /* Importante para que el hero-background se posicione bien */
+    min-height: 100vh;
+    padding-top: 100px; /* Este padding superior lo mantienes para tu contenido */
+}
+
+.section-spacing .row {
+    position: relative;
+    z-index: 1; /* Para que tu contenido quede por encima del fondo */
+}
+
+/* Y el resto de tus estilos personalizados (h1-custom, p-custom, myButton, etc.) */
+
+
+
+
+
+
 /* Botones */
 
 
