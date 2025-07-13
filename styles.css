@@ -338,7 +338,7 @@ img.rounded-circle {
 
 .h2-custom {
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 1.3;
   color: var(--dark-color);
 }
@@ -355,6 +355,19 @@ img.rounded-circle {
   font-weight: 600;
   color: var(--dark-color);
 }
+
+
+
+.font-swungnote {
+  font-family: swung-note, sans-serif;
+font-weight: 400;
+font-size: 1.4em;
+font-style: normal;
+color: #c62818;
+}
+
+
+
 
 
 
@@ -390,8 +403,8 @@ img.rounded-circle {
 }
 
 .lead-custom {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 300;
   color: #2d2d2d;
 }
 
