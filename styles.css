@@ -36,7 +36,7 @@ body {
 }
 
 .nav-link {
-  color: var(--dark-color);
+  color: #ffffff;
   font-weight: 500;
   margin-left: 20px;
   transition: color 0.3s;
@@ -112,6 +112,38 @@ p {
 
 
 /* Botones */
+
+/* Estilos para el botón "Unirme" */
+.nav-item.button-nav-item .btn {
+    /* Color de fondo inicial (puedes usar el azul de btn-primary o uno personalizado) */
+    background-color: #c62818; /* Color azul de Bootstrap por defecto para btn-primary */
+    border-color: #c62818; /* Color del borde inicial */
+    color: white; /* Color del texto inicial */
+
+    /* Redondeado sutil */
+    border-radius: 20px; /* Prueba con un valor entre 5px y 10px */
+
+    /* Transición suave para el efecto hover */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.nav-item.button-nav-item .btn:hover {
+    background-color: white; /* Fondo blanco al pasar el cursor */
+    border-color: #c62818; /* Mantener el borde del color inicial o cambiarlo a negro si quieres */
+    color: black; /* Texto negro al pasar el cursor */
+}
+
+/* Opcional: Para separar el botón de los otros elementos del menú en desktop */
+.navbar-nav .button-nav-item {
+    margin-left: 1rem; /* O el valor que prefieras para el espacio entre ítems */
+}
+
+/* Otros estilos de tu barra de navegación o elementos de Bootstrap si los has modificado */
+/* Por ejemplo, si definiste tus propios colores primarios en variables CSS de Bootstrap,
+   el color #0d6efd se adaptaría automáticamente si usas custom properties. */
+
+
+
 
 
 .myButton {
@@ -279,12 +311,26 @@ img.rounded-circle {
 /* CUSTOM HELPER CLASSES */
 /* ============================== */
 
+
+
+
+
 /* TITULOS */
+
+.h1-custom,
+.h2-custom,
+.h3-custom,
+.h4-custom {
+  /* Aquí aplicamos la fuente para los títulos */
+  font-family: "redonda", serif; /* Asegúrate de que "redonda" sea el nombre exacto de Adobe Fonts */
+  color: var(--dark-color); /* Esta línea ya la tienes */
+}
+
 .h1-custom {
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--dark-color);
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #2d2d2d;
 }
 
 .h2-custom {
@@ -307,18 +353,31 @@ img.rounded-circle {
   color: var(--dark-color);
 }
 
+
+
 /* PÁRRAFOS Y TEXTOS */
+
+.p-custom,
+.lead-custom {
+  /* Aquí aplicamos la fuente para los párrafos y textos */
+  font-family: "coolvetica", sans-serif; /* Asegúrate de que "coolvetica" sea el nombre exacto de Adobe Fonts */
+  color: #2d2d2d; /* Esta línea ya la tienes */
+}
+
+
 .p-custom {
-  font-size: 1rem;
-  color: var(--secondary-color);
+  font-size: 1.9rem;
+  color: #2d2d2d;
   line-height: 1.6;
 }
 
 .lead-custom {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  color: var(--secondary-color);
+  color: #2d2d2d;
 }
+
+
 
 /* FONDOS E IMÁGENES */
 .bg-cover {
