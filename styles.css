@@ -12,8 +12,10 @@ body {
   font-family: var(--font-family-base);
   color: #212529;
   background-color: #eae6dc;
-  margin: 0;
-  padding: 0;
+  margin-left : 35px;
+  margin-right: 35px;
+  padding: 0px;
+
   scroll-behavior: smooth;
 }
 
@@ -43,7 +45,7 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--primary-color);
+  color: #89c4f1;
 }
 
 /* 4. HERO */
@@ -153,11 +155,12 @@ p {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family:coolvetica;
 	font-size:17px;
 	font-weight:bold;
 	padding:10px 25px;
 	text-decoration:none;
+  margin-top: 2rem
 }
 .myButton:hover {
 	
@@ -327,7 +330,7 @@ img.rounded-circle {
 }
 
 .h1-custom {
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.1;
   color: #2d2d2d;
@@ -357,18 +360,33 @@ img.rounded-circle {
 
 /* PÁRRAFOS Y TEXTOS */
 
+
+.hero-custom,
 .p-custom,
 .lead-custom {
   /* Aquí aplicamos la fuente para los párrafos y textos */
   font-family: "coolvetica", sans-serif; /* Asegúrate de que "coolvetica" sea el nombre exacto de Adobe Fonts */
   color: #2d2d2d; /* Esta línea ya la tienes */
+   letter-spacing: 0.04em;
 }
 
 
-.p-custom {
-  font-size: 1.9rem;
+
+.hero-custom {
+  font-size: 1.8rem;
+   font-weight: 300;
   color: #2d2d2d;
-  line-height: 1.6;
+  line-height: 0.8;
+}
+
+
+
+
+.p-custom {
+  font-size: 1.4rem;
+   font-weight: 300;
+  color: #2d2d2d;
+  line-height: 0.8;
 }
 
 .lead-custom {
