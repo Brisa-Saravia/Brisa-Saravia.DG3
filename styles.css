@@ -459,6 +459,7 @@ color: #c62818;
 .hero-custom,
 .p-custom,
 .p-customBoldItalic,
+.lead-customjustificado22,
 .lead-custom,
 .lead-customBLANCO,
 .lead-customjustificado,
@@ -500,6 +501,12 @@ color: #c62818;
 }
 
 
+
+
+  
+ 
+
+
 .lead-custom {
   font-size: 1.2rem;
   font-weight: 300;
@@ -523,6 +530,19 @@ color: #c62818;
   line-height: 1.3;
   text-align: left;
 }
+
+
+
+.lead-customjustificado22 {
+  font-size: 0.9rem;
+  font-weight: 600;
+   font-style: italic;
+  color: #2d2d2d;
+  line-height: 1.3;
+  text-align: left;
+}
+
+
 
 
 
