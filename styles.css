@@ -319,8 +319,8 @@ section h2 {
 
 /* 8. FORMULARIO */
 form .form-control {
-  border-radius: 8px;
-  border: 1px solid #ced4da;
+  border-radius: 0px;
+  border: 1px solid #ffffff;
 }
 
 form button.btn-primary {
