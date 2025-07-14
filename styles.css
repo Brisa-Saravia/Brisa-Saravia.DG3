@@ -416,7 +416,13 @@ color: #c62818;
 }
 
 
-
+.font-swungnotePLANES {
+  font-family: swung-note, sans-serif;
+font-weight: 400;
+font-size: 2.3em;
+font-style: normal;
+color: #c62818;
+}
 
 
 
@@ -428,6 +434,7 @@ color: #c62818;
 .p-customBoldItalic,
 .lead-custom,
 .lead-custom2,
+.lead-custom3,
 .iconos-custom {
   /* Aquí aplicamos la fuente para los párrafos y textos */
   font-family: "coolvetica", sans-serif; /* Asegúrate de que "coolvetica" sea el nombre exacto de Adobe Fonts */
@@ -478,6 +485,15 @@ color: #c62818;
   color: #ffffff;
   line-height: 1.3;
 }
+
+
+.lead-custom3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #c62818;
+  line-height: 1.3;
+}
+
 
 
 .iconos-custom {
