@@ -921,39 +921,103 @@
 </section>
 <!-- /FAQS -->
 
-<!-- CONTACT FORM: Formulario de contacto -->
+<!-- CONTACT FORM: Con fondo de imagen full -->
+<section class="section-spacing container-fluid position-relative text-center" style="padding: 60px 0; overflow: hidden;">
+  <!-- Fondo de imagen -->
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="
+    background-image: url('images/mensaje-19.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;">
+  </div>
 
+  <!-- Contenido del formulario -->
+  <div class="container position-relative" style="z-index: 1;">
+    <h2 class="h2-customblanco">¿Jugamos?
+      <p class="lead-custom2"><br>¡Únete a nuestra comunidad!</p>
+    </h2>
 
-<section class="section-spacing container text-center">
-  <h2 class="h2-custom">¡CONTACTANOS!</h2>
-  <p class="p-custom">Estamos para ayudarte</p>
-  <div class="row justify-content-center">
-    <div class="col-md-6">
-      <form>
-        <div class="mb-3" class="p-custom">
-          <input type="text" class="form-control" placeholder="Tu nombre">
-        </div>
-        <div class="mb-3"class="p-custom">
-          <input type="email" class="form-control" placeholder="Tu email">
-        </div>
-        <div class="mb-3"class="p-custom">
-          <textarea class="form-control" rows="4" placeholder="Tu mensaje"></textarea>
-       
-    
-        <a href="#" class="myButton">Enviar Mensaje</a>
-      </form>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nombre">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Mensaje"></textarea>
+          </div>
+
+          <a href="#" class="myButton">Enviar</a>
+        </form>
+      </div>
     </div>
   </div>
 </section>
-<!-- /CONTACT FORM -->
 
-<!-- FOOTER: Pie de página -->
-<footer class="text-center py-4">
-  <div class="container">
-    <p class="p-custom">© 2025 Belluccia 3 - Visible Template. Todos los derechos reservados.</p>
+
+
+<!-- FOOTER personalizado con fondo de imagen -->
+<footer class="text-white position-relative" style="padding: 60px 0; overflow: hidden;">
+  <!-- Fondo de imagen full -->
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="
+    background-image: url('images/footer-19-19.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;">
+  </div>
+
+  <!-- Contenido por encima del fondo -->
+  <div class="container position-relative" style="z-index: 1;">
+    <div class="row">
+      <!-- Logo + contacto -->
+      <div class="col-md-3 mb-4 text-md-start text-center">
+        <img src="images/logo.png" alt="Peque Plan" style="width: 140px;" class="mb-3">
+        <p class="lead-customBLANCO mb-1">hola@pequeplan.com</p>
+        <p class="lead-customBLANCO mb-1">+54 9 11 1234 5678</p>
+        <p class="lead-customBLANCO mb-1">Buenos Aires, Argentina</p>
+      </div>
+
+      <!-- Información adicional -->
+      <div class="col-md-3 mb-4 text-md-start text-center">
+        <h5 class="lead-custom2 ">INFORMACIÓN ADICIONAL</h5>
+        <ul class="lead-customBLANCO list-unstyled mt-2">
+          <li>Preguntas Frecuentes</li>
+          <li>Términos y condiciones</li>
+          <li>Política de privacidad</li>
+          <li>Envíos y devoluciones</li>
+        </ul>
+      </div>
+
+      <!-- Redes -->
+      <div class="col-md-3 mb-4 text-md-start text-center">
+        <h5 class="lead-custom2 fw-bold">SEGINOS</h5>
+        <ul class="lead-customBLANCO  list-unstyled mt-2">
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>TikTok</li>
+        </ul>
+      </div>
+
+      <!-- Enlaces útiles -->
+      <div class="col-md-3 mb-4 text-md-start text-center">
+        <h5 class="lead-custom2 fw-bold">ENLACES ÚTILES</h5>
+        <ul class="lead-customBLANCO  list-unstyled mt-2">
+          <li>Centro de ayuda</li>
+          <li>Administrar mi suscripción</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="my-4" style="border-color: rgba(255,255,255,0.1);">
+    <p class="lead-customBLANCO text-center small mb-0">© 2025 Pequeplan. Todos los derechos reservados.</p>
   </div>
 </footer>
-<!-- /FOOTER -->
+
+
+
 
 <!-- Bootstrap Bundle JS (incluye Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

@@ -320,7 +320,7 @@ section h2 {
 /* 8. FORMULARIO */
 form .form-control {
   border-radius: 0px;
-  border: 1px solid #ffffff;
+  border: 3px solid #c62818;
 }
 
 form button.btn-primary {
@@ -376,6 +376,7 @@ img.rounded-circle {
 
 .h1-custom,
 .h2-custom,
+.h2-customblanco,
 .h2-customPLANES,
 .h3-custom,
 .h4-custom {
@@ -396,6 +397,13 @@ img.rounded-circle {
   font-weight: 900;
   line-height: 1.1;
   color:#2d2d2d;
+}
+
+.h2-customblanco {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color:#ffffff;
 }
 
 .h2-customPLANES {
@@ -448,6 +456,7 @@ color: #c62818;
 .p-custom,
 .p-customBoldItalic,
 .lead-custom,
+.lead-customBLANCO,
 .lead-customjustificado,
 .lead-custom2,
 .lead-custom3,
@@ -491,6 +500,14 @@ color: #c62818;
   font-size: 1.2rem;
   font-weight: 300;
   color: #2d2d2d;
+  line-height: 1.3;
+}
+
+
+.lead-customBLANCO {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: #fffffff5;
   line-height: 1.3;
 }
 
