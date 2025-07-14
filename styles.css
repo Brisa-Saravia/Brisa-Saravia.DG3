@@ -595,6 +595,22 @@ color: #c62818;
 
 
 
+/* Para eliminar el efecto de la seccion de marcas */
+
+
+.no-hover-effect {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.no-hover-effect:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+
+
 /* ============================== */
 /* MEDIA QUERIES */
 /* ============================== */
