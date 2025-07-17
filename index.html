@@ -274,24 +274,34 @@
 
 
 
-<!-- SECCIÓN C: Fondo a full ancho y contenido centrado -->
-<section class="section-spacing container-fluid position-relative" style="min-height: 100vh; overflow: hidden; padding-left: 0; padding-right: 0;">
-  <!-- Fondo de imagen de esquina a esquina -->
-  <div class="position-absolute top-0 start-0 w-100 h-100" style="background-image: url('images/fondo\ 6.jpg'); background-size: cover; background-position: center; z-index: 0;"></div>
-
-  <!-- Contenido centrado con márgenes internos -->
-  <div class="container position-relative" style="z-index: 1;">
+<!-- SECCIÓN C: Beneficio PequeSwap con fondo y sin margen abajo -->
+<section class="section-spacing container-fluid text-white" style="
+  background-image: url('images/fondo 6.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0 0 0; /* sin margen abajo */
+  overflow: hidden;
+">
+  <div class="container">
     <div class="row align-items-center">
-      <div class="col-lg-6 text-white">
-        <h1 class="h1-custom text-white">BENEFICIO<br> <span class="font-swungnote-verde">PEQUE SWAP</h1>
-         <p class="lead-custom2 ">¡Podés intercambiar kits ya<br> completados por nuevos retos!<br><br><br> ★ Cambialo en librerías y jugueterías<br> de la comunidad.</p>
-        </div>
+      <!-- Texto -->
+      <div class="col-lg-6">
+        <h1 class="h1-custom text-white">
+          BENEFICIO<br> <span class="font-swungnote-verde">PEQUE SWAP</span>
+        </h1>
+        <p class="lead-custom2">
+          ¡Podés intercambiar kits ya<br> completados por nuevos retos!<br><br><br>
+          ★ Cambialo en librerías y jugueterías<br> de la comunidad.
+        </p>
+      </div>
+      <!-- Imagen al corte -->
       <div class="col-lg-6 text-center mt-4 mt-lg-0">
-        <img src="images/SWAP.png" class="img-fluid img-rounded no-hover-img" alt="Imagen ilustrativa">
+        <img src="images/SWAP.png" class="img-fluid img-rounded no-hover-img" style="margin-bottom: -4px;" alt="Imagen ilustrativa">
       </div>
     </div>
   </div>
 </section>
+
 
 
 
