@@ -396,6 +396,9 @@ img.rounded-circle {
   color: #2d2d2d;
 }
 
+
+
+
 .h2-custom {
   font-size: 2.5rem;
   font-weight: 900;
@@ -441,6 +444,20 @@ font-size: 1.4em;
 font-style: normal;
 color: #c62818;
 }
+
+
+.font-swungnote-verde {
+  font-family: swung-note, sans-serif;
+font-weight: 400;
+font-size: 1.4em;
+font-style: normal;
+color: #b9dd58;
+}
+
+
+
+
+
 
 
 .font-swungnotePLANES {
@@ -548,8 +565,8 @@ color: #c62818;
 
 
 .lead-custom2 {
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: #ffffff;
   line-height: 1.3;
 }
